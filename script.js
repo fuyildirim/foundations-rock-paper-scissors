@@ -57,7 +57,7 @@ function playRound (humanChoice, computerChoice) {
 
 
 function playGame (x){
-    console.log("Spiller " + x + " runder!")
+    console.log("Playing " + x + " rounds!")
     for (let i = x; i > 0; i--) {
         console.log(playRound(getHumanChoice(), getComputerChoice()));
         console.log("Human score: " + humanScore);
